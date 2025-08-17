@@ -1,0 +1,145 @@
+(footprint "Magnetic connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8469f423-b304-49f1-be71-069b2bbfc5dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Magnetic connector"
+		(at 0 -1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87c28f35-aaef-4f8d-a9f6-4a3846795923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69990388-f841-468e-b188-f1b5f52f7848")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "216e114d-362f-425b-b957-fad53f5bb576")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -6.45 -2.95)
+		(end 6.45 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "485bec3a-aa4a-46db-b81f-d4164de50eef")
+	)
+	(fp_text user "GND"
+		(at 0.4 2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6cc9904a-6b5a-48ae-a04d-049b3c07b659")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VBAT"
+		(at -2.9 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca2bfe6e-7086-44bc-b423-934b564e0f36")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.6 3)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1470588235)
+		(uuid "8a71b05a-d07c-43fc-b10e-93d5940cefb9")
+	)
+	(pad "2" thru_hole circle
+		(at 1.6 3)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(uuid "63b00264-61e2-4e61-b64d-3a0b40c60c26")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "a7fb513a-3355-41cb-8154-3d48d8460163")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7 -3) (xy 7 -3) (xy 7 4.5) (xy -7 4.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
