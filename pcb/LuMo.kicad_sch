@@ -3401,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 168.91) (xy 25.4 165.1)
+			(xy 30.48 166.37) (xy 30.48 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3471,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 165.1) (xy 36.83 165.1)
+			(xy 30.48 165.1) (xy 36.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7410,7 +7410,7 @@
 	)
 	(symbol
 		(lib_id "tmk:GND")
-		(at 25.4 168.91 0)
+		(at 30.48 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7419,7 +7419,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d94676b-58a4-44f9-bae6-1f4d72c8abe3")
 		(property "Reference" "#PWR08"
-			(at 25.4 167.64 0)
+			(at 30.48 165.1 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7428,7 +7428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 167.64 0)
+			(at 30.48 165.1 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7436,7 +7436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 168.91 0)
+			(at 30.48 166.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7444,7 +7444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 168.91 0)
+			(at 30.48 166.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7452,7 +7452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 168.91 0)
+			(at 30.48 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

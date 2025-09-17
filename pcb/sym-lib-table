@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "niceNano")(type "Legacy")(uri "D:/keyboard/kicad/nice-nano-kicad-master/nice-nano-kicad-master/nice_nano.lib")(options "")(descr ""))
+  (lib (name "niceView")(type "KiCad")(uri "D:/keyboard/kicad/nice-view-kicad-main/nice-view-kicad-main/nice_view.kicad_sym")(options "")(descr ""))
+  (lib (name "tmk")(type "KiCad")(uri "D:/keyboard/kicad/kicad_lib_tmk-master/kicad_lib_tmk-master/keyboard_parts.kicad_sym")(options "")(descr ""))
+  (lib (name "pluckey")(type "KiCad")(uri "D:/keyboard/pluckey-main/pluckey-main/pcb/pcb-rescue.kicad_sym")(options "")(descr ""))
+)

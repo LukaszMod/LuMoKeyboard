@@ -5,11 +5,11 @@
 	(layer "F.Cu")
 	(descr "Resitance 3 pas")
 	(tags "R")
-	(property "Reference" "D5"
+	(property "Reference" "D30"
 		(at 0.5 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5950e5d0-23b0-4733-b120-fbd221390471")
+		(uuid "ca364d5d-bbee-4301-a5d0-db829d021597")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -21,7 +21,7 @@
 		(at -0.6 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b5d0d5ec-2044-4f7a-87e4-b5fec39d545f")
+		(uuid "d41fb1a0-99e5-4784-a845-00a82ecbbce1")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -29,11 +29,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://datasheet.octopart.com/1N4148TR-ON-Semiconductor-datasheet-42765246.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1dea897-1be0-4d00-a52f-847c11926f06")
+		(uuid "8e5cc22b-24c0-44e1-a5f6-d80c5c791309")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,11 +41,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "386f0cdd-4fea-49db-a2cf-c82ed08c8260")
+		(uuid "4010a429-f9a0-4311-8415-b8e4466a026d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,24 +55,24 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.7 -0.75)
-		(end -2.7 0.75)
+		(start -5 -1.2)
+		(end -5 1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2f60badf-0427-4091-bc98-e2b0bedb8117")
+		(uuid "b65e3198-0bcf-486e-a4cb-050e7eae3bfd")
 	)
 	(fp_line
-		(start -2.7 0.75)
-		(end 2.7 0.75)
+		(start -4.9 1.2)
+		(end 5 1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a2e5d8da-8c09-4fcd-b6d8-d98becfa771a")
+		(uuid "90988790-6e8c-4c2b-ad46-84fd5610dfa0")
 	)
 	(fp_line
 		(start -0.5 -0.5)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "90b7ede9-a290-4edd-9eb8-c1f80d1abfe0")
+		(uuid "442b5285-9011-4aab-94aa-6efabb483dc7")
 	)
 	(fp_line
 		(start -0.4 0)
@@ -92,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3397bcd4-1982-4ef0-993b-70b91e3e9265")
+		(uuid "aac3c362-62c3-4e05-bbe3-d3c369b3ea4b")
 	)
 	(fp_line
 		(start 0.5 -0.5)
@@ -102,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "459cea82-0f12-4eb0-b8ce-b6842be8d9f2")
+		(uuid "3685bd45-b704-4c31-994f-a791cda8daaf")
 	)
 	(fp_line
 		(start 0.5 0.5)
@@ -112,47 +112,47 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "26760f5c-a2dd-4bc2-8272-154c11ea8599")
+		(uuid "ce50a64b-b4d3-486d-b414-3113d33fde82")
 	)
 	(fp_line
-		(start 2.7 -0.75)
-		(end -2.7 -0.75)
+		(start 5 -1.2)
+		(end -5 -1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aaab43d6-39f7-49b1-9075-c3a52c2b4be0")
+		(uuid "c39b3fd7-03df-4497-acd9-5b252c84a88e")
 	)
 	(fp_line
-		(start 2.7 -0.75)
-		(end 2.7 0.75)
+		(start 5 -1.2)
+		(end 5 1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f2817be5-549f-41ec-a8b7-b72a89dc3cfe")
+		(uuid "d4a60a31-9391-4890-b79a-346a447b8bc3")
 	)
 	(fp_line
-		(start -2.7 -0.75)
-		(end -2.7 0.75)
+		(start -5 -1.2)
+		(end -5 1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "7deedf36-9211-47fe-be9a-d0908b67169f")
+		(uuid "4f111d05-3ca9-4f0a-abe7-9dd257484a35")
 	)
 	(fp_line
-		(start -2.7 0.75)
-		(end 2.7 0.75)
+		(start -5 1.2)
+		(end 5 1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "2ade10b9-3410-4867-bafb-7fadbd21136a")
+		(uuid "10769633-2f75-47cf-9da3-0b795fa25ed4")
 	)
 	(fp_line
 		(start -0.5 -0.5)
@@ -162,7 +162,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "0d2e3092-61cb-4135-9fcc-8d4f403f2140")
+		(uuid "5f2d7ae3-b157-487a-90d2-811f6c10aff0")
 	)
 	(fp_line
 		(start -0.4 0)
@@ -172,7 +172,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "4b2f8146-94dc-4310-a456-18423c3c3eca")
+		(uuid "d3e37b7a-461b-45d9-b401-2916b78c0168")
 	)
 	(fp_line
 		(start 0.5 -0.5)
@@ -182,7 +182,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "68e5cd3e-bc2a-4375-81f9-6e6e14e145c2")
+		(uuid "c9d1f47d-89ba-4321-b250-884824992e8f")
 	)
 	(fp_line
 		(start 0.5 0.5)
@@ -192,43 +192,32 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "428c8b6f-4f81-4d8e-9a58-82a5a93f373e")
+		(uuid "68a251ac-fa55-4a78-8cad-d97d9d619d6d")
 	)
 	(fp_line
-		(start 2.7 -0.75)
-		(end -2.7 -0.75)
+		(start 5 -1.2)
+		(end -5 -1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "1fd35fd6-f078-47ae-be31-f4ac623f6f89")
+		(uuid "fdc85d39-a508-49db-bb28-f918f8dade26")
 	)
 	(fp_line
-		(start 2.7 0.75)
-		(end 2.7 -0.75)
+		(start 5 1.2)
+		(end 5 -1.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "ced274e2-a3ed-4475-9aa0-c5bfebf89fdf")
-	)
-	(fp_text user "K"
-		(at 0 -1.8 0)
-		(layer "F.SilkS")
-		(uuid "367805ee-35e8-46ec-a5c5-861f8124de0c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "ca9c623d-7a60-4c6c-a867-a29c104230d0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 4.11 0 0)
+		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "ae236f57-6e42-4aa6-a842-5952da236aa5")
+		(uuid "20bc1ac2-3383-4b7b-8fd5-4a8fd2545252")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -237,20 +226,40 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -1.775 0)
-		(size 1.3 0.95)
-		(drill 0.3)
+		(at -3.8 0)
+		(size 2 2)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cb46f8e7-486d-4896-9bcd-80c9879cce8e")
+		(uuid "ea9662c3-3740-497e-b332-c2e866888896")
+	)
+	(pad "1" thru_hole rect
+		(at -1.775 0)
+		(size 1.875 0.95)
+		(drill 0.3
+			(offset -0.2875 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db637132-99a5-4d8f-b50b-86ea764ec8e9")
 	)
 	(pad "2" thru_hole rect
 		(at 1.775 0)
-		(size 1.3 0.95)
-		(drill 0.3)
+		(size 1.875 0.975)
+		(drill 0.3
+			(offset 0.2875 0.0125)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "879ed5ae-2ecd-4aaf-9d74-0e3888068d28")
+		(uuid "eab5a1be-68cb-4714-bf70-2c249a4c1a9c")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36ae362b-39c1-4954-82e7-922f1e787c2d")
 	)
 	(embedded_fonts no)
 	(model "Diodes_SMD.3dshapes/SMB_Handsoldering.wrl"
