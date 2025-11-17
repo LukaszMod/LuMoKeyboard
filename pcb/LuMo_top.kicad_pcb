@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber_top1/")
+			(outputdirectory "gerber_top/")
 		)
 	)
 	(net 0 "")
@@ -153,12 +153,74 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 6 6)
-			(drill 4.1)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "unconnected-(H3-Pad1)")
 			(pintype "passive")
 			(uuid "f4d62eda-a384-4b21-914f-6c86dcb6b743")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "8e5b980d-0302-4dd1-a1fb-ada8d3b5940c")
+		(at 157.299999 59.1)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "462b1b16-6cf3-4f46-b6ad-cfa681a17416")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3a02c2d9-67f3-41e5-9e1d-104e3cd33229")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3647cb92-3a8f-4139-9025-cd7313a9ea63")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59a34058-f0fe-4d79-a568-79e29d59d84f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "unconnected-(H3-Pad1)")
+			(pintype "passive")
+			(uuid "6b6d30ff-c1b3-45a9-a999-17f3e692c42b")
 		)
 		(embedded_fonts no)
 	)
@@ -234,7 +296,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 6 6)
-			(drill 4.1)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -315,7 +377,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 6 6)
-			(drill 4.1)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "unconnected-(H4-Pad1)")
