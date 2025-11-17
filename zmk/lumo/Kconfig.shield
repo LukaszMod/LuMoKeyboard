@@ -1,0 +1,8 @@
+   
+
+config SHIELD_LUMO_LEFT
+    def_bool $(shields_list_contains,lumo_left)
+
+config SHIELD_LUMO_RIGHT
+    def_bool $(shields_list_contains,lumo_right)
+    

@@ -1,0 +1,12 @@
+file_format: "1"
+id: lumo
+name: zmk-keyboard-LuMo
+type: shiled
+requires: [pro_micro]
+exposes: [nice_view]
+features:
+  - keys
+  - display
+siblings:
+  lumo_left
+  lumo_right
