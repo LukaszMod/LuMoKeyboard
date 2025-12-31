@@ -105,5 +105,6 @@ The installation are provide on the webside:
 
 Do not execute next sestion- 'Config Repo Setup'. 
 After that copy folder `lumo` located in `zmk` from current repository into
-`zmk/app/boards/shields`. Next open startscript.sh and set path to python virtual environment (line source /path_to_venv/bin/activate).
-At the end execute the file. 
+`zmk/app/boards/shields`. Next open startscript.sh and set path to python virtual environment (line source /path_to_venv/bin/activate). At the end execute the file. 
+
+Connect the left part of keyboard by USB to PC. Click twice reset button on the keyboard - MCU will be set in boot mode and you shall see new mounted device. Copy file `zmk/app/build/lumo_left/zephyr/zmk.uf2` into the device. Do the same steps for right part.
