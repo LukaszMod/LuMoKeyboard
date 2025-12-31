@@ -6,13 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-#if ZMK_DISPLAY
-#
-#config SSD1306
-#    default y
-#    
-#endif # ZMK_DISPLAY
-
 endif
 
 if SHIELD_LUMO_LEFT || SHIELD_LUMO_RIGHT

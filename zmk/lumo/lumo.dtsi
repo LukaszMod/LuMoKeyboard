@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
@@ -47,6 +42,7 @@
           <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
+
 
 
 

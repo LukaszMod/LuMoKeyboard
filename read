@@ -1,0 +1,75 @@
+
+Parts
+
+Lista części potrzebna do zbudowania obu części klawiatury. Płytki PCB zamawiane byly 
+    w JLCPCB, elementy klawiatury na aliexpress, a bolts i screveds w TME.eu 
+
+
+PCB main - 2 pliki gerber w repozytorium
+PCB top - 2 pliki gerber w repozytorium
+PCB bottom - 2 pliki gerber w repozytorium
+mikrokontroler - 2 sztuki Pro Micro NRF52840 
+przełącznik On-OfF 2 sztuki SS12D10
+przełącznik taktowy - 2 Switch Tactile Push Button Switches 6x6x4.3 mm DIP
+Diody - 64 - 1N4148 użyłem SMD SOD-123 ale można standartowych 
+złącze magnetyczne 1 set Magnetic Pogo Pin Connector 2 Positions MG02254B angled
+baterie -2 - 301230 3.7V 120mAh na złącze JST 1.25 with PCM
+connectory -2-  JST 1.25 2PIn Straight neddle
+gniazda do przycisków - 64 - Kailh Hot-Swappable PCB Socket For low profile switches
+przyciski -64 Kaih Low Profile Choc Switch V1 1350
+keycaps -64 - Low Profile Choc PBT Keycaps for Kailh 1350 Choc
+
+bolts- 4 - Screw; M2x4; 0.4; Head: cheese head; Phillips: PH1 
+screveds - 4 spacer Screwed spacer sleeve; length 5mm; Int.thread: M2; hexagonal https://www.tme.eu/pl/en/details/tff-m2x5_dr111/metal-spacers/dremec/111x05/
+Rubber Feet - 4 - 3mm thick 
+Piankolina - mały woreczek - ukradłem od dzieci 
+
+ceny na rok 2025
+3 x 5 PCBs - (price including duties + taxes + shipping charge) $57.85
+2 x Pro Micro NRF52840 $3.84
+20 x SS12D00 Interruptor On-Off Mini Slide Switch 3pin $1.05
+50 x Switch Tactile Push Button Switches $ 1.41
+100x SMD SOD-123 diode 1N4148 $1.25
+1set x Magnetic Pogo Pin Connector 2 Positions $1.78
+2x 301030 3.7V 120mAh $4.54
+10x connectors JST 1.25 - $1.25
+100x Kailh Hot-Swappable PCB Socket $13.39
+70x Kaih Low Profile Choc Switch V1 1350 $26.28
+70x keycaps $41.89
+10 Screwed spacer $3.90
+100x bolts $1.8
+100 x Rubber Feet $1.66
+piankolina $?? ukradłem dzieciom
+
+koszt całkowity $161.89 + wyrzuty sumienia
+
+Potrzebne również będą takie narzędzia jak penseta, 
+lutownica, pasta lutownicza, cyna, cążki, alkohol izopropylowy, śrubokręt
+
+
+
+Lutowanie
+
+Pierwszymi elementami jaki trzeba przylutować są dioty. Diody mogą być typu SMD lub zwykle, przy czym przy zwykłych 
+lutować trzeba od tej samej strony co komponent czyli od dołu. Górna część płytki ma pozostać równa, bez żadnych Leads. 
+    W przypadku elementów SMD nie ma tego problemu. Diody trzeba przylutować zgodnie z kierunkiem '>|' pionowa kreska 
+    jest również zaznaczona jako linia na diodzie.
+
+Jak lutuje się elementy SMD
+Wpierw należy nanieść na jedno pole lutownicze odrobinę pasty, następnie umieścić na polu 
+roztopioną cynę. Teraz chwytamy pensetą element SMD, pomownie roztapiamy cynę na polu i wtapiamy jedną nóżkę elementu.
+Jak zastygnie przylutowywujemy drógą nóżkę.
+
+Kolejnymi elementami, który można przylutować na płytce głównej są sockets. Zanim nastąpi samo lutowanie 
+można powciskać keys w górną płytkę. Następnie złączyć płytki PCB górną i główną i od dołu powciskać sockey. Tych dwóch 
+    płytek nie będziemy już rozdzielać.
+Teraz można zacząć lutować gniazda przycisków. Warto Po putowaniu sprawdzić miernikiem wszystkie połączenia
+
+Kolejnymi elementam do lutowania są mikrokontroler przełączniki i konektory JST oraz magnetyczne. W przypadku mikrokontrolera trzeba 
+zachować odstęp pomiędzy nim a płytką PCB, taką by weszła tam bateria. Na mojej płytce zastosowałem inny konektory
+JST przez co musiałem użyć kleju na gorąco do przymocowania gniazda
+
+Teraz możemy skręcić płytki. Wpierw wkręcamy śróbki przez górną i środkową płytkę do tulejek. Następne przykładamy dolną i ją dokręcamy resztą śróbek
+
+
+

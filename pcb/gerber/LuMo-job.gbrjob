@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.1"
+      "Version": "9.0.2+dfsg-1"
     },
-    "CreationDate": "2025-08-18T00:19:21+02:00"
+    "CreationDate": "2025-11-17T22:50:06+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -64,6 +64,16 @@
     {
       "Path": "LuMo-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "LuMo-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "LuMo-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
